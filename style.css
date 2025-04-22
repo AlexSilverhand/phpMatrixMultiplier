@@ -1,0 +1,126 @@
+/* Fuentes modernas usando Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Source+Code+Pro:wght@400;600&display=swap');
+
+/* Reset básico y estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estructura principal */
+body {
+  background-color: #f5f7fa;
+  color: #2d3748;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Contenedor principal */
+.container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Títulos */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1a365d;
+  font-weight: 500;
+}
+
+/* Matrices de entrada */
+.matrix-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.matrix-group {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.matrix-title {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+/* Tabla de resultados */
+table {
+  font-size: 1.25rem;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Inputs */
+input {
+  width: 4rem;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #cbd5e0;
+  margin: 0.25rem;
+  text-align: center;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4299e1;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+}
+
+/* Botón */
+#btnSubmit {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: none;
+  margin: 1rem auto;
+  background: #3182ce;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+#btnSubmit:hover {
+  background: #2c5282;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#btnSubmit:active {
+  transform: translateY(0);
+}
