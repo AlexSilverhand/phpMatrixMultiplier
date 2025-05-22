@@ -37,3 +37,8 @@ Notes
 - Currently supports only 3x3 matrices.
 - Does not store input or output data.
 - Matrix entries must be numeric and are required.
+
+Screenshots
+-----
+![Screenshot](Screenshots/1.png)
+![Screenshot](Screenshots/2.png)
